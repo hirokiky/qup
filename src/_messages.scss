@@ -1,0 +1,36 @@
+/* Flash Messages */
+.messages-wrapper {
+  position: fixed;
+  width: 100%;
+  z-index: 80;
+
+  opacity: 1;
+  transition: opacity 200ms ease;
+}
+
+ul.messages {
+  padding-left: 0;
+}
+
+ul.messages li.message {
+  list-style: none;
+  font-size: 12px;
+  padding: 6px 12px 6px 12px;
+  margin-bottom: 6px;
+  border-radius: 2px;
+  border: solid 1px #03b102;
+  color: #025a17;
+  background-color: rgba(159, 245, 178, 0.84);
+}
+
+ul.messages > li.message.warning {
+  border-color: #b19c02;
+  color: #5a5002;
+  background-color: rgba(255, 242, 167, 0.84);
+}
+
+ul.messages > li.message.error {
+  border-color: #b10202;
+  color: #5a0202;
+  background-color: rgba(231, 181, 190, 0.84);
+}

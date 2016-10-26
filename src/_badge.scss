@@ -1,0 +1,19 @@
+.badge {
+  border-bottom: solid 1px #6d6f6c;
+  padding: 4px 6px;
+  border-radius: 4px;
+  background-color: #b0aeae;
+  color: white;
+  font-weight: 800;
+  font-size: 12px;
+  margin: 0 8px;
+}
+
+.badge.info {
+  background-color: #3ac01f;
+
+}
+
+.badge.warning {
+  background-color: #e96430;
+}

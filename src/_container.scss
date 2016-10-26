@@ -1,0 +1,130 @@
+.container {
+  padding: 0;
+  margin-bottom: 1rem;
+
+  border: solid 1px #cecece;
+  border-radius: 4px;
+
+  background-color: #fff;
+  box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.05);
+}
+
+.container.center {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.container-header {
+  padding: 4px 0 4px 1rem;
+
+  background-color: #f1f1f1;
+  border-radius: 3px 3px 0 0;
+  border-bottom: solid 1px #cecece;
+  color: #545454;
+
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.container-header i {
+  font-size: 14px;
+  margin-right: 2px;
+}
+
+.container.danger {
+  border-color: #cea9a6;
+}
+
+.container.danger .container-header {
+  background-color: #f1d1d3;
+  border-bottom-color: #cebeba;
+  color: #6d0b0b;
+}
+
+.container.notice {
+  border-color: #cebda6;
+}
+
+.container.notice .container-header {
+  background-color: #f5e9c2;
+  border-bottom-color: #cebda6;
+  color: #555443;
+}
+
+.container.primary {
+  border-color: #a6b1ce;
+}
+
+.container.primary .container-header {
+  background-color: #d1def1;
+  border-bottom-color: #bac1ce;
+  color: #0b316d;
+}
+
+.container-body {
+  margin: 20px 2rem 20px;
+}
+
+.container-body p {
+  font-size: 12px;
+}
+
+.container-body p.note {
+  font-size: 10px;
+  margin: 0;
+  color: #555;
+}
+
+.container-title {
+  border-bottom: solid 1px #eee;
+  padding-bottom: 8px;
+}
+
+.container-actions {
+  display: flex;
+  flex-flow: row-reverse;
+  margin-top: 24px;
+
+  font-size: 14px;
+}
+
+.container-actions a {
+  margin-left: 14px;
+}
+
+ul.container-bar {
+  padding: 0;
+  margin: 0;
+}
+
+ul.container-bar > li {
+  list-style: none;
+  font-size: 14px;
+  border-bottom: solid 1px #ccc;
+}
+
+ul.container-bar > li > a,
+ul.container-bar > li > span,
+ul.container-bar > li > div {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  padding: 6px 24px;
+}
+
+ul.container-bar > li > div > *:not(:first-child) {
+  margin-left: 20px;
+}
+
+ul.container-bar > li.activate {
+  font-weight: 600;
+}
+
+ul.container-bar > li.footer {
+  background-color: #fafafa;
+  text-align: center;
+}
+ul.container-bar > li.footer > a,
+ul.container-bar > li.footer > span {
+  justify-content: center;
+}

@@ -1,0 +1,18 @@
+.pagination {
+  margin: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row;
+}
+
+.pagination > span > a > i.material-icons {
+  margin: 8px;
+  font-weight: 700;
+  font-size: 18px;
+  color: #132e8e;
+}
+
+.pagination > span > a[disabled="disabled"] > i.material-icons {
+  color: #ccc;
+}
